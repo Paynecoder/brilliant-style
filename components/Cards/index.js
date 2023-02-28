@@ -1,8 +1,8 @@
-import Aa from "@/public/Home/aa.svg";
 import Image from "next/image";
-import Burr from "@/public/Home/burr.svg";
 import pallete from "@/public/Home/Layer_1.svg";
 import styles from "./Cards.module.css";
+import typo from "@/public/Home/Aa.svg";
+import burr from "@/public/Home/Burr.svg";
 
 export default function Cards() {
   return (
@@ -15,7 +15,7 @@ export default function Cards() {
           </div>
           <div className={styles.cardbtm} style={{ marginTop: "1em" }}>
             <p>LEARN MORE</p>
-            <Image src={Aa} />
+            <Image src={typo} />
           </div>
         </div>
         <div className={styles.card}>
@@ -25,7 +25,7 @@ export default function Cards() {
           </div>
           <div className={styles.cardbtm} style={{ marginTop: "-1em" }}>
             <p>LEARN MORE</p>
-            <Image src={Burr} />
+            <Image src={burr} />
           </div>
         </div>
         <div
