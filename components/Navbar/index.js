@@ -15,7 +15,7 @@ export default function Navbar() {
         </div>
         <div>
           <h1 className={styles.nav__title}>
-            <span>Brrilliant</span>
+            <span>Brrrilliant</span>
           </h1>
         </div>
         <div
