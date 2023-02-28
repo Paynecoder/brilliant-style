@@ -1,0 +1,31 @@
+.navwrap {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-blue);
+    height: 90px;
+    padding: 3em 5em;
+}
+
+.nav__title {
+    color: var(--primary-blue);
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.nav__title > span {
+    color: var(--primary-white);
+    font-size: 45px;
+}
+
+
+.menu__bear {
+    margin-top: 2.5em;
+}
+
+.navwrap > div > img {
+    height: 75px;
+    width: 75px;
+}
