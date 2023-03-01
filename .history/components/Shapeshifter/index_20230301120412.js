@@ -17,8 +17,8 @@ export default function Shapeshifter() {
     <>
       <div className={styles.shifter}>
         <h3 className={styles.shiftertxt}>
-          Unlock the key to creating{" "}
-          <span className={styles.word}>{words[wordIndex]}</span> designs!
+          Unlock the key to creating <span className={styles.word}>{words[wordIndex]}</span>{" "}
+          designs!
         </h3>
       </div>
     </>

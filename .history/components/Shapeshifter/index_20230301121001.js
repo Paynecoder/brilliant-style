@@ -5,11 +5,14 @@ const words = ["compelling", "inspiring", "unique", "engaging"];
 
 export default function Shapeshifter() {
   const [wordIndex, setWordIndex] = useState(0);
+  const [change, setChange] = useState(false);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
+      setChange(true);
       setWordIndex((wordIndex + 1) % words.length);
     }, 1500);
+    setChange(false);
     return () => clearInterval(intervalId);
   }, [wordIndex]);
 

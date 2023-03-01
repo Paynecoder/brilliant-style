@@ -16,10 +16,6 @@
     overflow: hidden;
     transition: all 0.1s ease-in-out;
   }
-
-  .cardspc {
-    transition: all 0.1s ease-in-out;
-  }
   
   .cardbtm {
     display: flex;
