@@ -40,6 +40,7 @@ export default function Cards() {
             backgroundColor: "#39E454",
             overflow: "hidden",
           }}
+          className={styles.cardspc}
         >
           <div className={styles.cardtop}>
             <h3>Colour</h3>
