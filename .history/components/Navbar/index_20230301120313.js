@@ -108,7 +108,7 @@ export default function Navbar() {
           }
 
           .nav__menuwrap.open span:nth-child(2) {
-            transform: scaleX(0);
+            opacity: 0;
           }
 
           .nav__menuwrap.open span:nth-child(3) {

@@ -45,7 +45,7 @@ export default function Cards() {
           <div className={styles.cardtop}>
             <h3>Colour</h3>
             <p>
-              Absorb the meanings behind our hues and how they help us
+              Discover the meanings behind our hues and the ways they help us
               communicate our goals!
             </p>
           </div>

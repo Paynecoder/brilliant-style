@@ -1,0 +1,25 @@
+.shifter {
+    display: grid;
+    place-items: center;
+    margin-top: 3em;
+    transition-duration: 100ms;
+  }
+  
+  .shiftertxt {
+    color: var(--primary-blue);
+    font-size: 36px;
+    font-weight: 900;
+    transition-duration: 100ms;
+  }
+  
+  .shiftertxt > span {
+    color: var(--primary-beige);
+    transition-duration: 100ms;
+  }
+  
+  .word {
+    transition-duration: 100ms;
+  }
+  
+  
+

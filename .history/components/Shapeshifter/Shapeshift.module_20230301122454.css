@@ -1,0 +1,19 @@
+.shifter {
+    display: grid;
+    place-items: center;
+    margin-top: 3em;
+  }
+  
+  .shiftertxt {
+    color: var(--primary-blue);
+    font-size: 36px;
+    font-weight: 900;
+  }
+  
+  .shiftertxt > span {
+    color: var(--primary-beige);
+  }
+  
+  
+  
+
