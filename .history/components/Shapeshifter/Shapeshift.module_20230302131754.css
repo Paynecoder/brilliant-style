@@ -2,7 +2,7 @@
     display: grid;
     place-items: center;
     margin-top: 3em;
-    margin-bottom: 3em;
+    margin-bottom: 100px;
   }
   
   .shiftertxt {

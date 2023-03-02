@@ -18,6 +18,8 @@
   }
 
   .cardspc {
+    width: 450px;
+    height: 260px;
     transition: all 0.1s ease-in-out;
   }
   
@@ -53,7 +55,6 @@
     color: white;
     font-size: 20px;
     font-weight: 400;
-    width: 80%;
   }
   
   .cardwrap > .card:nth-child(1) {
@@ -78,5 +79,6 @@
     transform: scale(1.1);
     transition: all 0.1s ease-in-out;
   }
+  
   
 
