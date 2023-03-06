@@ -7,7 +7,7 @@ export default function Illu() {
   const iimg = loller;
   const ititle = "Illustration";
   const itxt =
-    "At Brrriliant, we take pride in our unique approach to art and illustrations. Our design philosophy is centered on keeping things simple, friendly, and fun. We want our illustrations to be approachable and inclusive for everyone, which is why we use bright colors and rounded shapes that make our art feel warm and inviting. Our goal is to create a visual language that reflects the spirit of our brand, while also conveying important environmental messages in a lighthearted way.";
+    "At Brrriliant, we take pride in our unique approach to art and illustrations. Our design philosophy is centered on keeping things simple, friendly, and fun.";
   return (
     <>
       <main>

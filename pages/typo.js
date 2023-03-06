@@ -8,7 +8,7 @@ export default function Typo() {
   const iimg = loller;
   const ititle = "Typography";
   const itxt =
-    "At Brrriliant, we understand the importance of typography in creating a cohesive and engaging visual language. Our primary font is Nunito. It has a playful and friendly feeling that perfectly aligns with our brand identity. Nunito is both a fun, bubbly font and a slick, legible one. It’s versatility allows us to create a balanced and visually appealing design that supports our mission of making environmental learning an adventure.";
+    "At Brrriliant, we understand the importance of typography in creating a cohesive and engaging visual language.";
   return (
     <>
       <main>
