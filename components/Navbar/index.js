@@ -3,13 +3,13 @@ import bear from "@/public/Navbar/BurrFavi.svg";
 import Image from "next/image";
 import { useState } from "react";
 
-export default function Navbar() {
+export default function Navbar({ color }) {
   /** Keeps track of menu open state */
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <>
-      <div className={styles.navwrap}>
+      <div className={styles.navwrap} style={{ backgroundColor: color }}>
         <div>
           <Image src={bear} alt="Brrilliant Logo Bear" height={50} />
         </div>
