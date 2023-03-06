@@ -2,15 +2,17 @@ import styles from "@/components/Navbar/Navbar.module.css";
 import bear from "@/public/Navbar/BurrFavi.svg";
 import Image from "next/image";
 import { useState } from "react";
+import { useRouter } from "next/router";
 
 export default function Navbar({ color }) {
   /** Keeps track of menu open state */
   const [menuOpen, setMenuOpen] = useState(false);
+  const router = useRouter();
 
   return (
     <>
       <div className={styles.navwrap} style={{ backgroundColor: color }}>
-        <div>
+        <div onClick={() => router.push("/")}>
           <Image src={bear} alt="Brrilliant Logo Bear" height={50} />
         </div>
         <div>

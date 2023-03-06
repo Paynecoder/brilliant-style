@@ -1,7 +1,6 @@
 .intro {
     display: flex;
     flex-direction: row;
-    background-color: var(--primary-blue);
     width: 100%;
     height: 35%;
     gap: 15em
