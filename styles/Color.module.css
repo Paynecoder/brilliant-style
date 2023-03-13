@@ -15,6 +15,16 @@
     width: 45%;
 }
 
+.palette > h1 {
+    font-size: 36px;
+    color: var(--primary-gray);
+}
+
+.palette > p {
+    font-size: 20px;
+    color: var(--secondary-gray);
+}
+
 .colors {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

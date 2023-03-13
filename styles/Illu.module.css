@@ -44,6 +44,16 @@
     width: 45%;
 }
 
+.prog > h1 {
+    font-size: 36px;
+    color: var(--primary-gray);
+}
+
+.prog > p {
+    font-size: 20px;
+    color: var(--secondary-gray);
+}
+
 .prog_eg {
     display: flex;
     flex-direction: row;
@@ -70,6 +80,16 @@
     flex-direction: column;
     width: 45%;
     gap: 1em;
+}
+
+.btns > h1 {
+    font-size: 36px;
+    color: var(--primary-gray);
+}
+
+.btns > p {
+    font-size: 20px;
+    color: var(--secondary-gray);
 }
 
 .section_btn {
