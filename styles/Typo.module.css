@@ -1,0 +1,171 @@
+.main {
+    height: 150vh;
+}
+
+
+.section {
+    padding: 5em 15em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15em;
+}
+
+.emotion {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 45%;
+}
+
+.emotion > h2 {
+    font-size: 36px;
+    color: var(--primary-gray);
+}
+
+.emotion > p {
+    font-size: 20px;
+    color: var(--secondary-gray);
+}
+
+.emo_eg {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.emo_eg > div {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.emo_eg > div > img {
+    width: 50px;
+    height: 50px;
+}
+
+.emo_eg > div > h2 {
+    font-size: 36px;
+    color: var(--primary-blue);
+}
+
+.headers {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 45%;
+}
+
+.headers > h2 {
+    font-size: 36px;
+    color: var(--primary-gray);
+}
+
+.headers > p {
+    font-size: 20px;
+    color: var(--secondary-gray);
+}
+
+.head_eg {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.head_eg > div {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.head_eg > div > img {
+    width: 50px;
+    height: 50px;
+}
+
+.head_eg > div > h2 {
+    font-size: 36px;
+    color: var(--primary-blue);
+}
+
+.bodytxt {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 45%;
+}
+
+.bodytxt > h2 {
+    font-size: 36px;
+    color: var(--primary-gray);
+}
+
+.bodytxt > p {
+    font-size: 20px;
+    color: var(--secondary-gray);
+}
+
+.body_eg {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.body_eg > div {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.body_eg > div > img {
+    width: 50px;
+    height: 50px;
+}
+
+.body_eg > div > p {
+    font-size: 20px;
+    color: var(--secondary-gray);
+}
+
+.readability {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 45%;
+}
+
+.readability > h2 {
+    font-size: 36px;
+    color: var(--primary-gray);
+}
+
+.readability > p {
+    font-size: 20px;
+    color: var(--secondary-gray);
+}
+
+.readability__eg {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25em;
+}
+
+.readability__eg > div {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.readability__eg > div > img {
+    width: 50px;
+    height: 50px;
+}
+
+.readability__eg > div > h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--secondary-gray);
+}
+

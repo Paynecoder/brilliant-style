@@ -1,0 +1,32 @@
+.section {
+    padding: 5em 15em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3em;
+}
+
+.palette {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 45%;
+}
+
+.colors {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3em;
+}
+
+.colors > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 125px;
+    height: 125px;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

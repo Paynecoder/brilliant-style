@@ -24,6 +24,12 @@
     margin-top: 2.5em;
 }
 
+.burrlogo:hover {
+    cursor: pointer;
+    scale: 1.1;
+    transition: 0.2s all ease-in-out;
+}
+
 .navwrap > div > img {
     height: 75px;
     width: 75px;

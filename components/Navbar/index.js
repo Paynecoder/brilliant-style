@@ -13,7 +13,12 @@ export default function Navbar({ color }) {
     <>
       <div className={styles.navwrap} style={{ backgroundColor: color }}>
         <div onClick={() => router.push("/")}>
-          <Image src={bear} alt="Brrilliant Logo Bear" height={50} />
+          <Image
+            src={bear}
+            alt="Brrilliant Logo Bear"
+            height={50}
+            className={styles.burrlogo}
+          />
         </div>
         <div>
           <h1 className={styles.nav__title}>
@@ -31,7 +36,17 @@ export default function Navbar({ color }) {
         </div>
       </div>
       <aside className={`side-menu ${menuOpen ? "open" : ""}`}>
-        <ul></ul>
+        <ul className={styles.list}>
+          <li onClick={() => router.push("/color")}>
+            <span>Color</span>
+          </li>
+          <li onClick={() => router.push("/typo")}>
+            <span>Typography</span>
+          </li>
+          <li onClick={() => router.push("/illu")}>
+            <span>Illustration</span>
+          </li>
+        </ul>
         <Image src={bear} className={styles.menu__bear} />
       </aside>
       <style jsx>
@@ -60,9 +75,11 @@ export default function Navbar({ color }) {
 
           .side-menu > ul {
             display: flex;
-            gap: 5em;
+            gap: 2em;
             flex-direction: column;
             list-style-type: none;
+            justify-content: center;
+            align-items: center;
           }
 
           .side-menu > ul > li {
