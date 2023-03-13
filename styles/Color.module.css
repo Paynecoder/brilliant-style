@@ -22,11 +22,20 @@
 }
 
 .colors > div {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    place-items: center;
     gap: 1em;
     width: 125px;
     height: 125px;
     border-radius: 20px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-weight: 900;
+    font-size: 18px;
+    color: #000;
+}
+
+.colors > div:hover {
+    cursor: pointer;
+    scale: 1.1;
+    transition: 0.2s all ease-in-out;
 }

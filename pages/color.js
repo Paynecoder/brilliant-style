@@ -42,42 +42,58 @@ export default function Color() {
               style={{
                 backgroundColor: "#7BD0FF",
               }}
-            ></div>
+            >
+              <p>7BD0FF</p>
+            </div>
             <div
               style={{
                 backgroundColor: "#C0E8FF",
               }}
-            ></div>
+            >
+              <p>C0E8FF</p>
+            </div>
             <div
               style={{
                 backgroundColor: "#E0D6C3",
               }}
-            ></div>
+            >
+              <p>E0D6C3</p>
+            </div>
             <div
               style={{
                 backgroundColor: "#EFEAE1",
               }}
-            ></div>
+            >
+              <p>EFEAE1</p>
+            </div>
             <div
               style={{
                 backgroundColor: "#F5F5F5",
               }}
-            ></div>
+            >
+              <p>F5F5F5</p>
+            </div>
             <div
               style={{
                 backgroundColor: "#FFFFFF",
               }}
-            ></div>
+            >
+              <p>FFFFFF</p>
+            </div>
             <div
               style={{
                 backgroundColor: "#4D4D4D",
               }}
-            ></div>
+            >
+              <p>4D4D4D</p>
+            </div>
             <div
               style={{
                 backgroundColor: "#707070",
               }}
-            ></div>
+            >
+              <p>707070</p>
+            </div>
           </div>
         </div>
       </main>
